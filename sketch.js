@@ -512,7 +512,7 @@ function draw() {
   rect(0, 1000 + 2.5, 1000, 200 - 2.5);
   pop();
 
-  if (exportArr.length > 0 && frameCount % 2 == 0) {
+  if (exportArr.length > 0 && frameCount % 3 == 0) {
     saveStrings([exportArr[0]], exportNameInput.value() + exportCounter, 'xst');
     exportCounter ++;
     exportArr.shift();

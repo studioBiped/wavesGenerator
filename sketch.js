@@ -112,7 +112,7 @@ function setup() {
   loadButton.mousePressed(loadNow);
 
   clearCanvasButton = createButton('Clear Canvas');
-  clearCanvasButton.position(width / 2 + 187.5, 1000 + 10);
+  clearCanvasButton.position(width / 2 + 187.5 + 62.5, 1000 + 10);
   clearCanvasButton.mousePressed(clearCanvasNow);
 
   recordButton = createButton('Record');
